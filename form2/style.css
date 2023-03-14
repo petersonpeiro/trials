@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+.container{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: papayawhip;
+    color: #000;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    padding-bottom: 60px;
+}
+form{
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    background: #fff;
+}
+form h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #333;
+}
+form input,
+form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+form select option{
+    background: #fff;
+}
+form .form_btn{
+    background: #fbd0fb;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+form .form_btn:hover{
+    background: crimson;
+    color: #fff;
+    transition: 300ms ease;
+}
+form p{
+    margin-top: 10px;
+    font-size: 17px;
+    color: #333;
+}
+form p a{
+    color: crimson;
+}
+form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px   ;
+}

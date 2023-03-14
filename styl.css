@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+.form_container{
+    min-height: 100vh;
+    /* width: 500px; */
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    padding-bottom: 60px;
+}
+.form_container form{
+    background: cornsilk;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+}
+.form_container form h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.form_container form input,
+.form_container form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+.form_container form select option{
+    background: #fff;
+}
+.form_container form .form_btn{
+    background: #fbd0fb;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form_container form .form_btn:hover{
+    background: crimson;
+    color: #fff;
+    transition: 300ms ease;
+}
+.form_container form p{
+    margin-top: 10px;
+    font-size: 17px;
+    color: #333;
+}
+.form_container form p a{
+    color: crimson;
+}
+.form_container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px   ;
+}
